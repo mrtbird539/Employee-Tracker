@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/mrtbird539/Employee-Tracker#readme",
   "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "inquirer": "^8.1.5",
     "mysql2": "^2.3.0"
   }
 }
