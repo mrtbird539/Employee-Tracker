@@ -12,7 +12,7 @@ const connection = mysql.createConnection({
   password: process.env.DB_PASS,
 });
 
-//object containing the SQL Queries the app utilizes
+//SQL Queries contained in one object to be called upon later
 const sqlQueries = {
   viewAllDepartmentsQuery: "SELECT * FROM `department`",
   viewAllRolesQuery:
